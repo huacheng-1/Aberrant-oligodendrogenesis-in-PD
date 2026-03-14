@@ -12,11 +12,11 @@ This repository provides the computational framework and analytical pipelines us
 
 # Repo Contents
 
-- [R](./R): `R` package code.
-- [docs](./docs): package documentation, and usage of the `lolR` package on many real and simulated data examples.
-- [man](./man): package manual for help in R session.
-- [tests](./tests): `R` unit tests written using the `testthat` package.
-- [vignettes](./vignettes): `R` vignettes for R session html help pages.
+- [LDSC](./figure1_a&b_ldsc): `LDSC` code.
+- [EWCE](./figure1_c_EWCE): `EWCE` code.
+- [scRNA-seq](./figure2&figure3_i-l_scRNA-seq analysis): `scRNA-seq` code.
+- [Bulk RNA-seq](./figure3_a-c&e-g_Bulk RNA-seq): `Bulk RNA-seq` code.
+- [AUCell](./figure3_d&h_AUCell): `AUCell` code.
 
 
 # System Requirements
@@ -29,3 +29,9 @@ Partitioned Heritability Analysis: LDSC version 1.0.1 (https://github.com/bulik/
 
 # Instructions for Use
 
+
+
+# Citation Database
+
+Four PD GWAS summary statistics datasets derived primarily from individuals of European ancestry were compiled. These included: Leal et al., 2025 (doi: 10.1101/2025.07.18.25331793) ; GP2 Parkinson’s Disease GWAS, European ancestry, 2025; Kim et al., 2024 (doi: 10.1038/s41588-023-01584-8);  and Nalls et al., 2019 (doi: 10.1016/S1474-4422(19)30320-5).
+6 human PD datasets (GSE243639, GSE178265, GSE193688, GSE147672, GSE7621 and GSE49036) were obtained from the GEO database. The MPTP mouse dataset was retrieved from Figshare (identifier: https://figshare.com/articles/dataset/Single cell_sequencing_screening_of_biomarkers_associated_with_Lipophagy_in_the_MPTP_model_mice_of_Parkinson_s_disease/26724526/1?file=48569005), and the α-synuclein A53T transgenic mouse dataset was obtained from the CNGBdb (CNSA; accession code CNP0000892, https://db.cngb.org/cnsa/).
