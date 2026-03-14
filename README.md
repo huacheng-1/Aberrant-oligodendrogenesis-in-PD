@@ -34,7 +34,9 @@ RAM: 64.0 GB
 
 ## OS Requirements
 This package is supported for macOS and Linux. The package has been tested on the following systems:
+
 Windows: Windows 11(25H2)
+
 Linux: Ubuntu 22.04
 
 ## Environment requirements
