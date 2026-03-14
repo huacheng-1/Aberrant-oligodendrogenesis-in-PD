@@ -27,7 +27,9 @@ This repository provides the computational framework and analytical pipelines us
 ## Hardware requirements
 
 oligodendrogenesis-Parkinson-s-disease requires only a standard computer with enough RAM to support the in-memory operations.
+
 CPU: 13th Gen Intel(R) Core(TM) i7-13700 (2.10 GHz)
+
 RAM: 64.0 GB
 
 ## OS Requirements
