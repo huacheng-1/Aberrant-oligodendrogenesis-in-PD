@@ -66,10 +66,10 @@ cd R-4.4.1
 
 # Configuration and compilation
 ./configure --prefix=/usr/local/R-4.4.1 --enable-R-shlib
-make -j$(nproc)  # 使用所有CPU核心加速编译
+make -j$(nproc) 
 sudo make install
-#--prefix=/usr/local/R-4.4.1 指定安装路径。
-#--enable-R-shlib 允许 R 被其他程序调用（如 RStudio）。
+#--Prefix=/var/local/R-4.4.1 specifies the installation path.
+#--Enable-R-shlib allows R to be called by other programs (such as RStudio).
 
 # Set environment variables
 echo 'export PATH=/usr/local/R-4.4.1/bin:$PATH' >> ~/.bashrc
