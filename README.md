@@ -32,7 +32,7 @@ CPU: 13th Gen Intel(R) Core(TM) i7-13700 (2.10 GHz)
 RAM: 64.0 GB
 
 ## OS Requirements
-This package is supported for macOS and Linux. The package has been tested on the following systems:
+This package is supported for Windows and Linux. The package has been tested on the following systems:
 
 Windows: Windows 11(25H2)
 
