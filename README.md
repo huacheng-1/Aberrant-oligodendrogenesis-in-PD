@@ -5,6 +5,8 @@ Aberrant oligodendrogenesis in the substantia nigra promotes oxidative stress-de
 - [Overview](#overview)
 - [Repo Contents](#repo-contents)
 - [System Requirements](#system-requirements)
+- [Instructions for Use](#Instructions-for-Use)
+- [Citation Database](#Citation-Database)
 
 # Overview
 
@@ -28,9 +30,18 @@ Partitioned Heritability Analysis: LDSC version 1.0.1 (https://github.com/bulik/
 
 
 # Instructions for Use
-
-
-
+*LDSC在此文档文件中能够正常运行，如有报错，请检查配置环境。
+- [LDSC](./figure1_a&b_ldsc): 
+  本文件包含LDSC运行的过程代码，包含从单细胞数据中提取差异表达基因、基线数据生成与遗传力计算和p值计算的一系列代码。总共有三个步骤，步骤1和步骤3为在`R`环境下运行的代码。步骤2为在`Linux`环境下运行的LDSC软件包程序。
+- [EWCE](./figure1_c_EWCE):
+  本文件包含对单细胞基因集的打分代码，代码中包含数据预处理与特异性计算，EWCE分析函数构建，差异基因提取与基于背景基因集的打分。
+- [scRNA-seq](./figure2&figure3_i-l_scRNA-seq_analysis):
+  本文件包含对五组单细胞数据的处理代码，整合数据的前期处理单独放置于[整合数据前处理](./figure2&figure3_i-l_scRNA-seq_analysis/数据整合前处理)中。CNP0000892的单细胞数据的处理过程与MPTP数据的处理过程及整合数据的处理过程分别命名为[CNP0000892](./figure2&figure3_i-l_scRNA-seq_analysis/figure2_d&e&f(CNP).R)，[MPTP](./figure2&figure3_i-l_scRNA-seq_analysis/figure2_g&h&i(MPTP).R)，[整合数据](./figure2&figure3_i-l_scRNA-seq_analysis/figure2_a&b&c(整合数据).R)。整合数据亚聚类代码与亚聚类的GO通路富集分析流程保存在同目录下的figure3_i&j(亚聚类).R与figure3_k&l(GO).R中
+- [Bulk_RNA-seq](./figure3_a-c&e-g_Bulk_RNA-seq):
+  本文件包含对两组简单RNA测序数据的处理代码，差异基因分析流程文件放置于[前处理](./figure3_a-c&e-g_Bulk_RNA-seq/前处理)中。火山图、热图与富集通路分析的GO图的运行流程代码均放置于[Bulk_RNA-seq](./figure3_a-c&e-g_Bulk_RNA-seq)目录下。
+- [AUCell](./figure3_d&h_AUCell):
+  本文件包含对两组简单RNA测序数据在整合后的单细胞数据的打分代码。
+  
 # Citation Database
 
 Four PD GWAS summary statistics datasets derived primarily from individuals of European ancestry were compiled. These included: Leal et al., 2025 (doi: 10.1101/2025.07.18.25331793) ; GP2 Parkinson’s Disease GWAS, European ancestry, 2025; Kim et al., 2024 (doi: 10.1038/s41588-023-01584-8);  and Nalls et al., 2019 (doi: 10.1016/S1474-4422(19)30320-5).
