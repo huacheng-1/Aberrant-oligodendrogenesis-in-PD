@@ -90,7 +90,7 @@ limma version 3.60.6,
 
 Signac version 1.14.9002,
 
-SeuratObject version 5.3.0,
+Seurat version 5.3.0,
 
 harmony version 1.2.3,
 
@@ -119,26 +119,27 @@ R version 4.4.1 installation guide:
 #**From CRAN:**
 install.packages(c(
 "tidyverse", # version >= 1.3.0
-"ggplot2"，# version >= 3.4.0
+"ggplot2", # version >= 3.4.0
 "dplyr", # version >= 1.1.0
 "readr", # version >= 2.1.0
 "patchwork", # version >= 1.1.0(for multi-panel figures)
 "RColorBrewer", # version >= 1.1.3
-"Bioconductor", # version >= 3.19
-"DESeq2", # version >= 1.44.0
-"enrichplot", # version >= 1.24.4
-"clusterProfiler", # version >= 4.12.6
 "msigdbr", # version >= 24.1.0
-"fgsea", # version >= 1.30.0
-"limma", # version >= 3.60.6
-"Signac", # version >= 1.14.9002
-"SeuratObject", # versioin >= 5.3.0
+"Seurat", # version >= 5.3.0
 "harmony" # version >= 1.2.3
 ))
 #**From Bioconductor (single-cell analysis):**
 if (!requireNamespace("BiocManager", quietly = TRUE)) {
     install.packages("BiocManager")
 }
+BiocManager::install(c(
+"DESeq2", # version >= 1.44.0
+"enrichplot", # version >= 1.24.4
+"clusterProfiler", # version >= 4.12.6
+"fgsea", # version >= 1.30.0
+"limma", # version >= 3.60.6
+"Signac", # version >= 1.14.9002
+))
 ```
 Typical installation time: Approximately 5-10 minutes on a standard desktop computer with a stable internet connect (longer if Seurat dependencies are not pre-installed).
 
