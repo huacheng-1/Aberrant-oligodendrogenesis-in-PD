@@ -24,7 +24,7 @@ This repository contains the R analysis scripts associated with the manuscript: 
 │   ├── step2_ldsc.txt                                # Bash pipeline: merge baseline annotations, generate .annot files, compute LD scores & run stratified LDSC
 │   └── step3_plot.R                                  # Compute p-values from LDSC z-scores & visualize cell-type enrichment
 ├── figure1c_EWCE/
-│   └── figure1c_EWCE.R                              # EWCE cell-type enrichment test for PD DEGs
+│   └── figure1c_EWCE.R                               # EWCE cell-type enrichment test for PD DEGs
 ├── figure2scRNA-seq_analysis/
 │   ├── figure2a-c/
 │   │   ├── GSE243639_pre-process.R                   # QC, normalization, clustering & annotation for GSE243639 (human PD)
