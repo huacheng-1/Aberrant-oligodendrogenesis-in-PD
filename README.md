@@ -142,6 +142,9 @@ LDSC version 1.0.1 (https://github.com/bulik/ldsc/wiki/Summary-Statistics-File-F
 
 # Installation Guide
 R version 4.4.1 installation guide:
+1.InstallR from https://cran.r-project.org/
+2.(0ptional)Install RStudio from https://posit.co/download/rstudio-desktop/
+3.Install all required packages by running:
 ```
 # Install dependencies
 # Install R from https://cran.r-project.org/
@@ -153,7 +156,17 @@ install.packages(c(
 "dplyr", # version >= 1.1.0
 "readr", # version >= 2.1.0
 "patchwork", # version >= 1.1.0(for multi-panel figures)
-"RColorBrewer" # version >= 1.1.3
+"RColorBrewer", # version >= 1.1.3
+"Bioconductor", # version >= 3.19
+"DESeq2", # version >= 1.44.0
+"enrichplot", # version >= 1.24.4
+"clusterProfiler", # version >= 4.12.6
+"msigdbr", # version >= 24.1.0
+"fgsea", # version >= 1.30.0
+"limma", # version >= 3.60.6
+"Signac", # version >= 1.14.9002
+"SeuratObject", # versioin >= 5.3.0
+"harmony" # version >= 1.2.3
 ))
 #**From Bioconductor (single-cell analysis):**
 if (Irequire("BiocManager", quietly = TRUE))install.packages("BiocManager")
