@@ -15,18 +15,6 @@ This repository contains the R analysis scripts associated with the manuscript: 
 
 # Repository Structure
 
-├─[LDSC](./figure1a&b_ldsc): `figure1 a&b` code.
-
-├─[EWCE](./figure1c_EWCE):: `figure1 c` code.
-
-├─[scRNA-seq](./figure2scRNA-seq_analysis):`figure2` code.
-
-├─[Bulk RNA-seq](./figure3a-c&e-g_Bulk_RNA-seq):`figure3 a-c&e-g` code.
-
-├─[AUCell](./figure3d&h_AUCell):`figure3 d&h` code.
-
-└─[OL subclusters](figure3i-l_OL-subclusters):`figure3 i-l` code.
-
 ```
 ├── figure1a&b_ldsc/
 │   ├── fast_match2_2.pl                              # Match SNPs against cell-type annotation files for LDSC input
