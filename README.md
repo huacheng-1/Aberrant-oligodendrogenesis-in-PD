@@ -24,7 +24,7 @@ This repository contains the R analysis scripts associated with the manuscript: 
 │   ├── step2_ldsc.txt                                # Bash pipeline: merge baseline annotations, generate .annot files, compute LD scores & run stratified LDSC
 │   └── step3_plot.R                                  # Compute p-values from LDSC z-scores & visualize cell-type enrichment
 ├── figure1c_EWCE/
-│   └── figure1c(EWCE).R                              # EWCE cell-type enrichment test for PD DEGs
+│   └── figure1c_EWCE.R                              # EWCE cell-type enrichment test for PD DEGs
 ├── figure2scRNA-seq_analysis/
 │   ├── figure2a-c/
 │   │   ├── GSE243639_pre-process.R                   # QC, normalization, clustering & annotation for GSE243639 (human PD)
@@ -44,7 +44,7 @@ This repository contains the R analysis scripts associated with the manuscript: 
 │   └── figure3c_g_heatmap.R                          # Heatmap of target gene expression
 │
 ├── figure3d&h_AUCell/
-│   └── figure3d&h_AUCell.R                           #Score oxidative stress gene set activity per cell with AUCell 
+│   └── figure3d&h_AUCell.R                           # Score oxidative stress gene set activity per cell with AUCell 
 │
 ├── figure3i-l OL subclusters/
 │   ├── figure3i-j_OL subclusters.R                   # Sub-cluster oligodendrocytes, compare PD/CON subcluster proportions
@@ -138,7 +138,7 @@ BiocManager::install(c(
 "clusterProfiler", # version >= 4.12.6
 "fgsea", # version >= 1.30.0
 "limma", # version >= 3.60.6
-"Signac", # version >= 1.14.9002
+"Signac" # version >= 1.14.9002
 ))
 ```
 Typical installation time: Approximately 5-10 minutes on a standard desktop computer with a stable internet connect (longer if Seurat dependencies are not pre-installed).
