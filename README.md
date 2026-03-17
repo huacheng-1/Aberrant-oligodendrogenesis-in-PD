@@ -42,20 +42,34 @@ Linux: Ubuntu 22.04
 ## Software Dependencies
 ### Required R Packages/Linux software
 Bioconductor version 3.19,
+
 DESeq2 version 1.44.0,
+
 enrichplot version 1.24.4,
+
 clusterProfiler version 4.12.6,
+
 msigdbr version 24.1.0,
+
 fgsea version 1.30.0,
-limma version 3.60.6.
-Signac version 1.14.9002.
+
+limma version 3.60.6,
+
+Signac version 1.14.9002,
+
 SeuratObject version 5.3.0,
+
 harmony version 1.2.3,
+
 samtools version 1.21,
+
 cellranger version 8.0.0,
+
 FastQC version 0.12.1,
-hisat2 version 2.2.1.
-Partitioned Heritability Analysis: LDSC version 1.0.1 (https://github.com/bulik/ldsc/wiki/Summary-Statistics-File-Format ).
+
+hisat2 version 2.2.1,
+
+LDSC version 1.0.1 (https://github.com/bulik/ldsc/wiki/Summary-Statistics-File-Format ).
 
 # Installation Guide
 R version 4.4.1 installation guide:
