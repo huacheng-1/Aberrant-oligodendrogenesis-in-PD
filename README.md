@@ -141,13 +141,13 @@ BiocManager::install(c(
 "Signac" # version >= 1.14.9002
 ))
 ```
-Typical installation time: Approximately 5-10 minutes on a standard desktop computer with a stable internet connect (longer if Seurat dependencies are not pre-installed).
+Typical installation time: Approximately 5-10 minutes on a standard desktop computer with a stable internet connection (longer if Seurat dependencies are not pre-installed).
 
 # Data
-Four PD GWAS summary statistics datasets derived primarily from individuals of European ancestry were compiled. These included: Leal et al., 2025 (doi: 10.1101/2025.07.18.25331793) ; GP2 Parkinson’s Disease GWAS, European ancestry, 2025; Kim et al., 2024 (doi: 10.1038/s41588-023-01584-8);  and Nalls et al., 2019 (doi: 10.1016/S1474-4422(19)30320-5).
+Four PD GWAS summary statistics datasets derived primarily from individuals of European ancestry were compiled. These included: Leal et al., 2025 (doi: 10.1101/2025.07.18.25331793); GP2 Parkinson’s Disease GWAS, European ancestry, 2025; Kim et al., 2024 (doi: 10.1038/s41588-023-01584-8);  and Nalls et al., 2019 (doi: 10.1016/S1474-4422(19)30320-5).
 
 6 human PD datasets (GSE243639, GSE178265, GSE193688, GSE147672, GSE7621 and GSE49036) were obtained from the GEO database. The MPTP mouse dataset was retrieved from Figshare (identifier: https://figshare.com/articles/dataset/Single cell_sequencing_screening_of_biomarkers_associated_with_Lipophagy_in_the_MPTP_model_mice_of_Parkinson_s_disease/26724526/1?file=48569005), and the α-synuclein A53T transgenic mouse dataset was obtained from the CNGBdb (CNSA; accession code CNP0000892, https://db.cngb.org/cnsa/).
 
 # License
-This code is released under the **MIT License**. See LICENSE' file for details.
+This code is released under the **MIT License**. See the LICENSE file for details.
 
