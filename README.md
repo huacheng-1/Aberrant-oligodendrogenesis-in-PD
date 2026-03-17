@@ -68,7 +68,7 @@ A minimum of 32 GB RAM is recommended. Larger datasets or multi-sample integrati
 ## OS Requirements
 This package is supported for Windows and Linux. The package has been tested on the following systems:
 
-Windows: Windows 11(25H2)
+Windows: Windows 11 (25H2)
 
 Linux: Ubuntu 22.04
 
@@ -107,9 +107,9 @@ LDSC version 1.0.1 (https://github.com/bulik/ldsc/wiki/Summary-Statistics-File-F
 # Installation Guide
 R version 4.4.1 installation guide:
 
-1.InstallR from https://cran.r-project.org/
+1.Install R from https://cran.r-project.org/
 
-2.(0ptional)Install RStudio from https://posit.co/download/rstudio-desktop/
+2.(Optional) Install RStudio from https://posit.co/download/rstudio-desktop/
 
 3.Install all required packages by running:
 
@@ -136,9 +136,11 @@ install.packages(c(
 "harmony" # version >= 1.2.3
 ))
 #**From Bioconductor (single-cell analysis):**
-if (Irequire("BiocManager", quietly = TRUE))install.packages("BiocManager")
+if (!requireNamespace("BiocManager", quietly = TRUE)) {
+    install.packages("BiocManager")
+}
 ```
-Typical installation time: Approximately 5-10 minutes on a standard desktopcomputer with a stable internet connect(longer if Seurat dependencies areLnot pre-installed).
+Typical installation time: Approximately 5-10 minutes on a standard desktop computer with a stable internet connect (longer if Seurat dependencies are not pre-installed).
 
 # Data
 Four PD GWAS summary statistics datasets derived primarily from individuals of European ancestry were compiled. These included: Leal et al., 2025 (doi: 10.1101/2025.07.18.25331793) ; GP2 Parkinson’s Disease GWAS, European ancestry, 2025; Kim et al., 2024 (doi: 10.1038/s41588-023-01584-8);  and Nalls et al., 2019 (doi: 10.1016/S1474-4422(19)30320-5).
